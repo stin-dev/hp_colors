@@ -100,7 +100,9 @@ footer {
   transition: all 0.2s;
   position: relative;
   border-radius: 2px;
-  p {
+  a {
+    display: block;
+    text-decoration: none;
     position: absolute;
     top: 20%;
     left: 20%;
