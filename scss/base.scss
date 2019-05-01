@@ -79,6 +79,12 @@ footer {
   }
 }
 
+.member-img {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px 20px;
+}
+
 @media screen and (max-width: 1000px) {
   .member_color-wrapper {
     width: 50%;
