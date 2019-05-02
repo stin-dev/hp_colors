@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    height: 40px;
+    height: 50px;
 }
 
 .fixed-header {
@@ -14,44 +14,50 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    height: 50px;
     width: 100%;
     z-index: 100;
 }
 
 .header-container {
   width: 90%;
-  height: 40px;
   margin: 0 auto;
 }
 
 .hp_colors-logo {
   float: left;
-  padding: 10px 0px;
   font-size: 30px;
   font-family: 'Arbutus Slab', serif;
 
   h1 {
     font-weight: normal;
+    line-height: 50px;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
   }
 }
 
 .header-right {
     float: right;
+    height:50px;
 }
 
 .header-link-list {
     display: block;
 }
 
-.fas.menu-bars {
+.menu-bars {
     display: none;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .link-list-item {
   margin-right: 5px;
-  line-height: 40px;
+  line-height: 50px;
   display: inline-block;
 
   a {
@@ -81,7 +87,7 @@ footer {
         display: none;
     }
 
-    .fas.menu-bars {
+    .menu-bars {
         display: block;
     }
 }
