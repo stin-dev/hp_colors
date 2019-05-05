@@ -56,12 +56,10 @@ header {
   margin-right: 5px;
   line-height: 50px;
   display: inline-block;
-  border-top: rgb(151, 151, 151) solid 1px;
 
   a {
     font-size: 10px;
     color: #eee;
-    display: inherit;
   }
 }
 
@@ -97,5 +95,10 @@ footer {
 
   .link-list-item {
     display: block;
+    border-top: rgb(151, 151, 151) solid 1px;
+
+    a {
+      display: inherit;
+    }
   }
 }
